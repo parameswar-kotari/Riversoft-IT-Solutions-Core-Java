@@ -31,15 +31,17 @@ public class ArrayListExample {
 //		}
 
 //Enhanced for loop		
-//
-//		for(String o :list)
-//			System.out.println(o);
+
+		for(String o :list)
+			System.out.println(o);
 		
 		Iterator iterator=list.iterator();
 		while(iterator.hasNext())
 		{
 			System.out.println(iterator.next());
 		}
+		
+		
 		
 		
 	}

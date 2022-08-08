@@ -12,9 +12,6 @@ public static  void main(String[]args)
 	list.add("lavanyaa");
 	list.add("syamala");
 	list.add("amala");
-	System.out.println(list.contains("pooja"));
-	
-			
-
+	System.out.println(list.contains("pooja"));	
 }
 }

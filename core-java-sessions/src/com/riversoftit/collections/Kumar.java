@@ -34,6 +34,7 @@ public class Kumar {
 		l1.pop();
 		l1.pop();
 		l1.addAll(f);
+		System.out.println("------------"+l1.get(0));
 		System.out.println(l1);
 		System.out.println(l1.pop());
 		ListIterator itr=l1.listIterator();
@@ -48,7 +49,7 @@ public class Kumar {
 				
 			}
 		}
-		System.out.println(l1);
+		
 		
 
 	}

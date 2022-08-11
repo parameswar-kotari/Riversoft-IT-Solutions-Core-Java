@@ -1,6 +1,7 @@
 package com.riversoftit.collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -11,7 +12,8 @@ public class ArrayListExample {
 		list1.add("Jack");
 		list1.add("Harish");
 		list1.add("Anil");
-		
+		Collections.sort(list1,Collections.reverseOrder());
+		System.out.println(list1);
 		ArrayList<String> list=new ArrayList<>();
 		list.add("Jack");
 		list.add("Harish");
@@ -32,15 +34,15 @@ public class ArrayListExample {
 
 //Enhanced for loop		
 
-		for(String o :list)
-			System.out.println(o);
-		
-		Iterator iterator=list.iterator();
-		while(iterator.hasNext())
-		{
-			System.out.println(iterator.next());
-		}
-		
+//		for(String o :list)
+//			System.out.println(o);
+//		
+//		Iterator iterator=list.iterator();
+//		while(iterator.hasNext())
+//		{
+//			System.out.println(iterator.next());
+//		}
+//		
 		
 		
 		

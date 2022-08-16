@@ -9,8 +9,7 @@ public class Studentgrade {
 		if
 		(c=='A');
 		System.out.println("Outstanding");
-		
-		if (c=='B')
+		 if (c=='B')
 			System.out.println("Exlent");
 		else if (c=='C')
 			System.out.println("Good");
@@ -21,5 +20,5 @@ public class Studentgrade {
 		else if (c=='F')
 			System.out.println("Fail");
 	}
-
 }
+

@@ -5,7 +5,7 @@ public class Sumofnaturalnumbers {
 		int num=10, t=1, sum=0;
 		while(t <= num);
 		{
-			sum = num+t;
+			sum = sum+t;
 			t++;
 		}
 		System.out.println("sum of first 10 natural number is ="+sum);

@@ -30,7 +30,7 @@ public class Student {
 	}
 	public int getStudentId() {
 		int i=177010161;
-		return i;
+		return i:
 	}
 
 	public void setBuddy(String student) {

@@ -23,13 +23,13 @@ package com.riversoftit.collections;
 //}
 //	Class
 //	ExceptionThrown
-	Class ExceptionHandling{
+	public Class ExceptionHandling{
 		static int divideByZero(int a, int b)
 		{
 			int i=a/b;
 			return i;
 		}
-	}
+	
 	static int computeDivision(int a, int b)
 	{
 		int str=0;

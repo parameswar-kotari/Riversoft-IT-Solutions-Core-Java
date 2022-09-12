@@ -10,7 +10,7 @@ public class ArrayListExample {
 		List<String> list1=new ArrayList<>() {};
 		list1.add("Jack");
 		list1.add("Harish");
-		list1.add("Anil");
+		list1.add("Apple");
 		
 		ArrayList<String> list=new ArrayList<>();
 		list.add("Jack");

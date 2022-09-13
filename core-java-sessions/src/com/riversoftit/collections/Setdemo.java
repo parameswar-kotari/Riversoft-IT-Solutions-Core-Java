@@ -11,7 +11,7 @@ public class Setdemo {
 		fd.add("varsham");
 		fd.add("mass");
 		System.out.println(fd);
-
+		
 	}
 
 }

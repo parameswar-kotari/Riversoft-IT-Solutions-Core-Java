@@ -13,10 +13,9 @@ public class LikedHasgSet {
 		set.add("pokiri");
 		set.add("mass");
 		Iterator<String> i=set.iterator();
+		Object itr;
 		while (itr.hasNext()) {
-			System.out.println(itr.next());
+			System.out.println(((Object) itr).next());
 		}
-
 	}
-
 }
